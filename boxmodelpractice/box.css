@@ -1,0 +1,18 @@
+#one {
+    background-color: powderblue;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 20px solid plum;
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+#two {   
+    background-color: powderblue;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 20px solid plum;
+    margin: 100px;
+}

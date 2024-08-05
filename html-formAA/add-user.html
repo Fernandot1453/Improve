@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Learning the forms</title>
+    </head>
+    <body>
+        <h1>Hello, Forms</h1>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+                
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="status_selection">
+                        <option value="Student">Student</option>
+                        <option value="Instructor">Instructor</option>
+                        <option value="Guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                <p>Choose your favorite programming language</p>
+                </div>
+
+                <div>
+                    <input type="radio" id="HTML" name="language" value="HTML">
+                    <label for="HTML">HTML</label>
+
+                    <input type="radio" id="CSS" name="language" value="CSS">
+                    <label for="CSS">CSS</label>
+
+                    <input type="radio" id="JAVASCRIPT" name="language" value="JAVASCRIPT">
+                    <label for="JAVASCRIPT">JAVASCRIPT</label>
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <label for="newsletter">Sign up for newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newslet_choice">
+
+                    <label for="agreement">Agree to terms and conditions</label>
+                    <input type="checkbox" id="agreement" name="agree-to-form">
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+
+
+
+
+</html>
